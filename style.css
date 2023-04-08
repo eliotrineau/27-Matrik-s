@@ -1,0 +1,52 @@
+body {
+    font-family: 'Nippo';
+}
+
+.bg-center {
+    background-position: 50%
+}
+
+.animation-text-scroll {
+    animation: text-scroll 100s linear infinite;
+}
+
+@keyframes text-scroll {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translate(-100%)
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.animate-spin-slow {
+    animation: spin 20s linear infinite
+}
+
+
+  
+.image-scroll {
+    animation: image-scroll 50s linear infinite;
+}
+
+@keyframes image-scroll {
+    0% {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-100%);
+    }
+}
+
+
+canvas {
+    border: 1px solid yellow;
+  }

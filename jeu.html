@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=nippo@200,300,500,700,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="animation.js" defer></script>
+    <title>27 Matrik's</title>
+</head>
+
+<body class="bg-[#0D0208]">
+    <!-- partie mini jeux PFC-->
+    <section class="mt-8">
+        <h1 class="text-[#008F11] lg:text-7xl text-4xl flex justify-center">Voici votre espace détente !</h1>
+        <div class="grid grid-cols-1 gap-4 text-4xl text-[#008F11] p-6">
+            <div class="border border-[#008F11] rounded-xl ">
+                <div class="flex-col">
+                    <div class="flex justify-center gap-6 lg:gap-32 mt-4">
+                        <p class="resultatPFCG text-center flex pt-8 justify-center lg:text-[300px] text-9xl text-[#008F11]">--</p>
+                        <p class="resultatPFCD text-center flex pt-8 justify-center lg:text-[300px] text-9xl text-[#008F11]">--</p>
+                    </div>
+                    <p class="calcul text-center flex pt-8 justify-center text-4xl text-[#008F11]">--</p>
+                    <div class="flex justify-center my-6">
+                        <button id="btnPFC" class="px-2 py-1 bg-[#003B00] rounded-xl mt-4 text-4xl hover:text-[#00FF41]">PINTE FUT COKTAIL</button>
+                    </div>
+                    <p class="text-lg text-center text-[#008F11] mb-4">Règles :<br> 🍺 l'emporte sur 🍸 <br> 🛢 l'emporte sur 🍺 <br> 🍸 l'emporte sur 🛢</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="startButton" class="flex mx-auto text-4xl text-[#008F11] my-6">Démarrer le BeerPong</button>
+    <canvas id="canvas" class="flex mx-auto border-[#008F11]" width="600" height="400"></canvas>
+
+
+ 
+</body>
+</html>
