@@ -1,7 +1,7 @@
 import anime from 'animejs'
 
 anime({
-    targets: 'test',
+    targets: '#test',
     translateX: {
       value: 250,
       duration: 800
