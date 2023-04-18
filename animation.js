@@ -1,4 +1,4 @@
-import anime from 'animejs'
+/*import anime from 'animejs'*/
 const boutonPFC = document.querySelector("#btnPFC");
 const resultatPFCG = document.querySelector(".resultatPFCG");
 const resultatPFCD = document.querySelector(".resultatPFCD");
