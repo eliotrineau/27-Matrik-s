@@ -33,7 +33,7 @@ body {
 
   
 .image-scroll {
-    animation: image-scroll 50s linear infinite;
+    animation: image-scroll 40s linear infinite;
 }
 
 @keyframes image-scroll {
@@ -46,7 +46,3 @@ body {
     }
 }
 
-
-canvas {
-    border: 1px solid yellow;
-  }
